@@ -3,9 +3,9 @@
 	import Navigation from './Navigation.svelte';
 </script>
 
-<header class="w-full">
+<header class="w-full border-b border-gray-200 shadow-lg">
 	<!-- Fila 1: Branding -->
-	<div class="bg-black py-4 lg:py-6">
+	<div class="bg-black bg-gradient-to-bl to-yellow-950 py-4 lg:py-6">
 		<div class="container mx-auto px-4">
 			<Logo />
 		</div>
