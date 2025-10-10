@@ -15,7 +15,7 @@
 <div class="ml-auto flex items-center space-x-4 lg:hidden">
 	<button
 		onclick={openWhatsApp}
-		class="cursor-pointer p-2 text-yellow-600 transition-transform duration-200 hover:scale-110 active:scale-95"
+		class="p-2 text-yellow-600 transition-transform duration-200 hover:scale-110 active:scale-95"
 		aria-label="Consultar por WhatsApp"
 	>
 		<ShoppingCart size={24} />
@@ -23,7 +23,7 @@
 
 	<button
 		onclick={toggleMobileMenu}
-		class="cursor-pointer p-2 text-black transition-all duration-200 hover:scale-110 hover:text-yellow-600 active:scale-95"
+		class="p-2 text-yellow-600 transition-all duration-200 hover:scale-110 active:scale-95"
 		aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
 	>
 		{#if isMobileMenuOpen}
