@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { ShoppingCart, X, Menu } from '@lucide/svelte';
+	import Logo from '$lib/assets/logo.svg';
 
 	let {
 		isMobileMenuOpen,
@@ -11,6 +12,11 @@
 		openWhatsApp: () => void;
 	} = $props();
 </script>
+
+<!-- Logo -->
+<a class="flex-shrink-0" href="/">
+	<img src={Logo} alt="Lenoir Logo" class="h-10" draggable="false" />
+</a>
 
 <div class="ml-auto flex items-center space-x-4 lg:hidden">
 	<button
