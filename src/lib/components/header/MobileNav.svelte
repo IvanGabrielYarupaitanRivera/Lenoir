@@ -14,7 +14,7 @@
 </script>
 
 <!-- Logo -->
-<a class="flex-shrink-0" href="/">
+<a class="flex-shrink-0 lg:hidden" href="/">
 	<img src={Logo} alt="Lenoir Logo" class="h-10" draggable="false" />
 </a>
 
