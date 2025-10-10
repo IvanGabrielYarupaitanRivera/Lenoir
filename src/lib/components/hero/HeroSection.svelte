@@ -39,6 +39,7 @@
 			<div class="lg:col-span-12">
 				<TrustBanner />
 			</div>
+
 			<!-- Product Showcase Cards - Mobile: full width, Desktop: 4 cols each -->
 			{#each data.showcase as product}
 				<div class="lg:col-span-4">
