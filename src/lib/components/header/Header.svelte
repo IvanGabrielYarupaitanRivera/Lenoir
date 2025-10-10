@@ -5,14 +5,7 @@
 
 <header class="w-full border-b border-gray-200 shadow-lg">
 	<!-- Fila 1: Branding -->
-	<div class="bg-black bg-gradient-to-bl to-yellow-950 py-4 lg:py-6">
-		<div class="container mx-auto px-4">
-			<Logo />
-		</div>
-	</div>
-
-	<!-- Fila 2: Navegación -->
-	<div class="bg-white py-3">
+	<div class="bg-gradient-to-bl from-black to-yellow-900 py-4 lg:py-6">
 		<div class="container mx-auto px-4">
 			<Navigation />
 		</div>
