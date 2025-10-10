@@ -21,9 +21,9 @@
 <!-- Contenedor principal: logo | nav | botón -->
 <div class="hidden w-full items-center justify-between lg:flex">
 	<!-- Logo -->
-	<div class="flex-shrink-0">
-		<img src={Logo} alt="Lenoir Logo" class="h-12" />
-	</div>
+	<a class="flex-shrink-0" href="/">
+		<img src={Logo} alt="Lenoir Logo" class="h-12" draggable="false" />
+	</a>
 
 	<!-- Navegación centrada -->
 	<nav class="flex flex-1 items-center justify-center space-x-8">
